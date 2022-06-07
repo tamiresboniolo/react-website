@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { PageHero } from '../components'
-import aboutImg from '../assets/about-pic.jpg'
+import aboutImg from '../assets/about.jpg'
 
 const AboutPage = () => {
   return (
@@ -15,13 +15,10 @@ const AboutPage = () => {
             <div className='underline'></div>
           </div>
           <p>
-            It is a long established fact that a reader will be distracted by the readable content of a 
-            page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less 
-            normal distribution of letters, as opposed to using 'Content here, content here', making it look 
-            like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum 
-            as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in 
-            their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on 
-            purpose (injected humour and the like).
+            There is nothing better than happiness. After all, who doesn't like to lie in the sun to watch the sunrise? Or enjoy the popcorn and movie double in front of the TV? And breakfast in bed? Are holidays coming up? Happiness is realizing that happiness is in the little things and also in the big ones, but above all, that it lives inside you.
+          </p>
+          <p>
+            For us, relationships of trust and credibility with the long-standing public and the new generations that are coming are a priority. In our 12 years of solid history, we have reinforced the values we cherish most. In our company, happiness lies in the special service of the seller, in the quality products offered to the consumer, and in the relationship of proximity and respect inherited from its founder.
           </p>
         </article>
       </Wrapper>

@@ -7,12 +7,12 @@ const Services = () => {
     <Wrapper>
       <div className='section-center'>
         <article className='header'>
-          <h4>We are very happy to provide you, <br/>
-              all delicious Brazilian Food 
+          <h4>Custom Furniture <br/>
+              Built Only For You
           </h4>
           <p>
-            It is a long established fact that a reader will be distracted by the readable content of a 
-            page when looking at its layout.
+            Quality and tradition are trademarks of BRfurniture. 
+            With more than 12 years of experience in the market, we offer a great variety of items for you to furnish and decorate your home as you prefer.
           </p>
         </article>
         <div className='services-center'>

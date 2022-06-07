@@ -2,21 +2,18 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import heroBcg from '../assets/about-pic.jpg'
-import heroBcg2 from '../assets/logo.png'
+import heroBcg2 from '../assets/BRlogo.png'
 
 const Hero = () => {
   return (
     <Wrapper className='section-center'>
       <article className='content'>
-        <h1>Shop Classic Brazilian <br/>
-            Foods & Drinks
+        <h1>Beautiful furniture, <br/>
+            seamless experience. 
         </h1>
         <p>
-          It is a long established fact that a reader will be distracted by the readable content of a 
-          page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less 
-          normal distribution of letters, as opposed to using 'Content here, content here', making it look 
-          like readable English.
-          lorem
+          Create a space you love with beautiful furniture, 
+          amazing service, and flexibility to fit your life.
         </p>
         <Link to='/products' className='btn hero-btn'>
           shop now
@@ -24,7 +21,7 @@ const Hero = () => {
       </article>
       <article className='img-container'>
         <img src={heroBcg} alt='home' className='main-img'/> 
-        <img src={heroBcg2} alt='home2' className='accent-img'/> 
+        {/* <img src={heroBcg2} alt='home2' className='accent-img'/>  */}
       </article>
     </Wrapper>
   )
